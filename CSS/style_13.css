@@ -1,0 +1,19 @@
+hr {
+    border: 1px solid blueviolet;
+}
+
+.lv {
+    width:200px;
+    height:200px;
+    border: 4px solid blueviolet;
+}
+
+.aku {
+    width:200px;
+    height:200px;
+    margin-top:20px;
+    border-left-style: dashed;
+    border-right-style:dotted;
+    border-top-style:solid;
+    border-bottom-style:double;
+}
