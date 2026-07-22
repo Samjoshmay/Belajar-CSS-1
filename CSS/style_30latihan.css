@@ -1,0 +1,27 @@
+.container {
+    width:200px;
+    height:20px;
+    background-color: #ddd;
+    margin:50px auto;
+    border-radius:10px;
+}
+
+.loader {
+    width:50%;
+    height:20px;
+    background-color: aqua;
+    border-radius: 10px;
+    animation : loader 3s linear infinite alternate;
+}
+
+@keyframes loader {
+    0% {
+        width:10px;
+    }
+    50% {
+        width:30px;
+    } 
+    70% {
+        width:70px;
+    }
+}

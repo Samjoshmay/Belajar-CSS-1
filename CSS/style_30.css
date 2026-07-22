@@ -1,0 +1,28 @@
+.animation {
+    width:300px;
+    height:70px;
+    background-color: green;
+    margin:30px;
+    animation-name:warna;
+    animation-duration:8s;
+    animation-timing-function:linear;
+    animation-iteration-count: 3;
+    animation-direction:alternate;
+
+    /* atau animation: warna 8s linear 3 alternate */
+}
+
+@keyframes warna  {
+    0% {
+        background-color: red;
+    }
+    30% {
+        background-color:blue;
+    }
+    80% {
+        background-color:yellow;
+    }
+    100% {
+        background-color: black;
+    }
+}

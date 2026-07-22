@@ -5,4 +5,6 @@
     margin:auto;
     margin-top:40px;
     border-radius:30px;
+    /* border-radius:80px 100px: maka 80 untuk kiri atas dan kanan bawah kemudian 100 untuk kiri bawah dan kanan atas */
+    /* untuk membentuk lingkaran maka gunakan border-radius:100%: */
 }

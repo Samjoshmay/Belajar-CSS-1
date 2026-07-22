@@ -1,0 +1,15 @@
+.kotak {
+    width:200px;
+    height:100px;
+    background-color:green;
+    margin: 200px auto;
+}
+
+.kotak:hover {
+    transform: rotate(45deg);
+    transform: scale(3);
+    transform: translate(70px 100px); 
+    /* maka 70px itu horizontal dan 100px itu vertikal */
+    transform: skew(20deg);
+    /* maka akan miring 20 deg */
+}

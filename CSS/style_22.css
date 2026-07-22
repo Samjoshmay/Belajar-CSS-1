@@ -1,0 +1,51 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+label,input {
+    display:block;
+    width:100%;
+    padding:8px;
+    box-sizing: border-box;
+    color:teal;
+    
+
+   
+}
+
+form {
+    width: 600px;
+    border:1px solid aqua;
+    margin: 40px auto; 
+    padding:20px;
+    border-radius:10px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+label {
+    margin-left:-8px;
+}
+
+
+
+input {
+     margin-bottom:10px;
+     border:1px solid teal;
+     
+}
+
+button {
+    border:none;
+    margin-top:15px;
+    padding:7px;
+    width:40%;
+    margin-left:30%;
+    background-color: salmon;
+    color:white;
+    border-radius:10px;
+}
+
+h3 {
+    margin-bottom:30px;
+    color:teal;
+}

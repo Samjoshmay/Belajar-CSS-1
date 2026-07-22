@@ -1,0 +1,9 @@
+.box {
+    width:200px;
+    height:200px;
+    margin:70px auto;
+    background-color:goldenrod;
+    box-shadow: 40px 10px 30px -10px;
+    /* 40px itu untuk offset x dan 10px itu untuk offset y kemudian 30px itu untuk seberapa blur bayangan tersebut kemudian -10px seberapa jauh arah bayangan tersebut */
+
+}

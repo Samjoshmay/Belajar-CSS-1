@@ -1,0 +1,49 @@
+* {
+    margin:0px;
+    padding:0px;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+form {
+    width:500px;
+    margin:40px auto;
+    border:1px solid teal;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+input[type="text"] {
+    width:49%;
+    /* displaynya secara default yaitu block */
+    padding:10px;
+    margin-top:10px;
+    box-sizing: border-box;
+  
+  
+}
+
+input[type="email"], input[type="password"] {
+    display:block;
+    width:100%;
+    margin-top:10px;
+    padding:10px;
+    box-sizing: border-box;
+}
+
+input,button{
+    border:none;
+    border-bottom: 1px solid aqua;
+}
+
+button {
+    padding:10px;
+    margin-top:10px;
+    width:50%;
+    margin-left:25%;
+    border-radius:10px;
+}
+
+button:hover {
+    background-color: blueviolet;
+    color: white;
+}
